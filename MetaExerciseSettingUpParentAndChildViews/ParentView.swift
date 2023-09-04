@@ -11,9 +11,17 @@ struct ParentView: View {
     var body: some View {
         HStack {
             Rectangle()
-                .foregroundColor(Color.teal.opacity(0.56))
+                .fill(Color.teal.opacity(0.56))
                 .frame(width: 50, height: 50)
             
+            Text("Rectangle One")
+                .foregroundColor(.white)
+                .background(Color.yellow)
+                .padding(20)
+            
+            Rectangle()
+                .fill(Color.blue.opacity(0.56))
+                .frame(width: 100, height: 30)
         }
     }
 }
