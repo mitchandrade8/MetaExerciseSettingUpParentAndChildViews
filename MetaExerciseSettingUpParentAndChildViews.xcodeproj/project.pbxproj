@@ -11,6 +11,7 @@
 		74270D662AA63BD000B5A2B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D652AA63BD000B5A2B0 /* ContentView.swift */; };
 		74270D682AA63BD200B5A2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74270D672AA63BD200B5A2B0 /* Assets.xcassets */; };
 		74270D6B2AA63BD200B5A2B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74270D6A2AA63BD200B5A2B0 /* Preview Assets.xcassets */; };
+		74270D722AA6466F00B5A2B0 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D712AA6466F00B5A2B0 /* ParentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		74270D652AA63BD000B5A2B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74270D672AA63BD200B5A2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74270D6A2AA63BD200B5A2B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74270D712AA6466F00B5A2B0 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				74270D632AA63BD000B5A2B0 /* MetaExerciseSettingUpParentAndChildViewsApp.swift */,
 				74270D652AA63BD000B5A2B0 /* ContentView.swift */,
+				74270D712AA6466F00B5A2B0 /* ParentView.swift */,
 				74270D672AA63BD200B5A2B0 /* Assets.xcassets */,
 				74270D692AA63BD200B5A2B0 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74270D662AA63BD000B5A2B0 /* ContentView.swift in Sources */,
+				74270D722AA6466F00B5A2B0 /* ParentView.swift in Sources */,
 				74270D642AA63BD000B5A2B0 /* MetaExerciseSettingUpParentAndChildViewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
