@@ -16,8 +16,9 @@ struct ParentView: View {
             
             Text("Rectangle One")
                 .foregroundColor(.white)
-                .background(Color.yellow)
                 .padding(20)
+                .background(Color.yellow)
+                
             
             Rectangle()
                 .fill(Color.blue.opacity(0.56))
